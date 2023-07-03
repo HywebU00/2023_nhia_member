@@ -1,0 +1,46 @@
+.category {
+  text-align: left;
+  margin: 1em auto;
+  ul {
+    @include liReset;
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+      margin: 0px 3px 3px 3px;
+      display: block;
+    }
+  }
+  a {
+    border: 1px solid $colorPrimary;
+    padding: 0.5em 0.75em;
+    display: block;
+    color: $colorPrimary;
+    // font-size: 0.875rem;
+    box-sizing: border-box;
+    border-radius: 20px;
+    &:before {
+      content: '#';
+      margin-right: 0.25em;
+    }
+    &:hover,
+    &:focus,
+    &.active {
+      color: #fff;
+      background: lighten($colorPrimary, 5);
+      border: 1px solid lighten($colorPrimary, 5);
+      box-shadow: none;
+    }
+    span {
+      // font-size: 0.813em;
+      &:before {
+        content: '(';
+        display: inline-block;
+      }
+      &:after {
+        content: ')';
+        display: inline-block;
+      }
+    }
+  }
+}

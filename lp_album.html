@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="zh-Hant" class="no-js">
+<head>
+  <meta name="robots" content="noindex" />
+  <!-- 使用 noindex 禁止 Google 搜尋建立索引，套版時請工程師刪掉這行 -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HyUI kit</title>
+
+  <!-- style css -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- favicon -->
+  <link href="images/favicon.png" rel="icon" type="image/x-icon" />
+</head>
+
+<body>
+  <!-- 直接跳主內容區 -->
+  <a class="goCenter" href="#center" tabindex="1">按Enter到主內容區</a>
+  <!-- wrapper Start -->
+  <div class="wrapper">
+    <!-- header Start -->
+    <header class="header">
+      <div class="container">
+        <!-- <a class="accessKey" href="#aU" id="aU" accesskey="U" title="網站標題" tabindex="2">:::</a> -->
+        <!-- navigation Start -->
+        <nav class="navigation" role="navigation" aria-label="Site">
+          <!-- 新增div navList -->
+          <div class="navList">
+            <ul>
+              <li><a href="#">首頁</a></li>
+              <li><a href="#">網站導覽</a></li>
+            </ul>
+          </div>
+          <!-- fontSize -->
+          <div class="fontSize">
+            <!-- <span class="font-size-label">字型大小：</span> -->
+            <ul aria-labelledby="font-size-label">
+              <li><button class="small" title="小">小</button></li>
+              <li><button class="medium" title="中">中</button></li>
+              <li><button class="large" title="大">大</button></li>
+            </ul>
+          </div>
+        </nav>
+        <!-- navigation End -->
+        <h1>
+          <a href="index.html"><img src="images/logo.png" alt="網站標題" /></a>
+          <span><a href="">醫審及藥材組</a></span>
+        </h1>
+        <!-- noscript -->
+        <!-- <noscript>
+          您的瀏覽器不支援JavaScript語法，JavaScript語法並不影響內容的陳述。您可使用按鍵盤上的Ctrl鍵+ (+)鍵放大/(-)鍵縮小來改變字型大小；回到上一頁可使用瀏覽器提供的 Alt+左方向鍵(←) 快速鍵功能；列印可使用瀏覽器提供的(Ctrl+P)功能。您的瀏覽器，不支援script語法，若您的瀏覽器無法支援請點選此超連結
+          <a href="#">網站導覽</a>
+        </noscript> -->
+        <!-- menu Start -->
+        <nav class="menu mainMenu" role="navigation" aria-label="About page">
+          <ul>
+            <li>
+              <a href="#">組織職掌</a>
+            </li>
+            <li><a href="#">SOP</a></li>
+            <li>
+              <a href="#">綜合規畫科</a>
+              <ul>
+                <li><a href="#">第二層選單</a></li>
+                <li><a href="#">第二層選單</a></li>
+                <li>
+                  <a href="http://www.google.com">第二層有連結</a>
+                  <ul>
+                    <li>
+                      <a href="http://www.google.com">第三層選單有下層</a>
+                      <ul>
+                        <li><a href="#">第四層選單</a></li>
+                        <li><a href="#">第四層選單</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="http://www.google.com">第三層選單有連結</a>
+                    </li>
+                    <li><a href="#">第三層選單</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">第二層選單</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">管制考核科</a>
+            </li>
+            <li>
+              <a href="#">法制事務科</a>
+            </li>
+            <li>
+              <a href="#">業務宣導科</a>
+            </li>
+            <li>
+              <a href="#">聯絡窗口</a>
+            </li>
+            <li>
+              <a href="#">圖書室</a>
+            </li>
+            <li>
+              <a href="#">重要業務</a>
+              <ul>
+                <li><a href="#">第二層選單</a></li>
+                <li><a href="#">第二層選單</a></li>
+                <li>
+                  <a href="http://www.google.com">第二層有連結</a>
+                  <ul>
+                    <li>
+                      <a href="http://www.google.com">第三層選單有下層</a>
+                      <ul>
+                        <li><a href="#">第四層選單</a></li>
+                        <li><a href="#">第四層選單</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="http://www.google.com">第三層選單有連結</a>
+                    </li>
+                    <li><a href="#">第三層選單</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">第二層選單</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">讀書趣專區</a>
+            </li>
+            <li>
+              <a href="#">員工學習區</a>
+            </li>
+            <li>
+              <a href="#">虛擬健保卡</a>
+            </li>
+            <li>
+              <a href="#">署會記錄</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- menu End -->
+      </div>
+    </header>
+    <!-- header End -->
+    <!-- main Start -->
+    <main id="center" class="main innerPage">
+      <!-- 內頁新增一個classname-->
+      <a class="accessKey" href="#aC" id="aC" accesskey="C" title="主要內容區">:::</a>
+      <div class="container">
+
+          <!-- 主要內容區 -->
+          <div class="centerBlock">
+            <!-- breadcrumb路徑 -->
+            <nav aria-label="Breadcrumb" class="breadcrumb">
+              <ul>
+                <li><a href="#">首頁</a></li>
+                <li><a href="#">節點</a></li>
+                <li aria-current="page">節點</li>
+              </ul>
+            </nav>
+            <!-- h2節點 -->
+            <h2 class="title">節點標題</h2>
+<!-- functionPanel -->
+<div class="functionPanel">
+  <!-- function功能區塊 -->
+  <div class="function">
+    <ul>
+      <li class="back"><a href="javascript:history.back()">回上一頁</a></li>
+      <li class="print"><a href="#">友善列印</a></li>
+    </ul>
+  </div>
+</div>
+<!-- 查詢 -->
+<div class="functionSearch">
+  <button type="button" class="btn functionSearchBtn">查詢</button>
+  <div class="functionSearchBlock">
+    <div class="flexForm formGrid">
+      <div class="formGrp">
+        <label for="address" class="formTitle">標題</label>
+        <div class="formContent">
+          <input name="password" type="password" title="請輸入標題">
+        </div>
+      </div>
+      <div class="formGrp">
+        <label for="address" class="formTitle">內文</label>
+        <div class="formContent">
+          <input name="password" type="password" title="請輸入內文">
+        </div>
+      </div>
+      <div class="formGrp">
+        <div class="formTitle">發布日期</div>
+        <div class="formContent">
+          <div class="datePick">
+            <input name="" type="date" value="" class="calendar" placeholder="開始日期" title="開始日期">
+          </div>
+          <div class="datePick">
+            <input name="" type="date" value="" class="calendar" placeholder="結束日期" title="結束日期">
+          </div>
+        </div>
+      </div>
+      <div class="formGrp">
+        <label for="selectSample" class="formTitle">下拉選單</label>
+        <div class="formContent formInline">
+          <select id="selectSample" name="">
+            <option value="">社政課</option>
+          </select>
+          <select id="selectSample" name="">
+            <option value="">婦女緊急生活扶助及少年兒童生活扶助</option>
+          </select>
+        </div>
+      </div>
+      <div class="formGrp" role="group" aria-labelledby="fake-legend">
+        <label class="formTitle">複選</label>
+        <div class="formContent" id="fake-legend">
+          <div class="checkGrp formInline">
+            <label> <input type="checkbox" name="" value="" title="全部" checked="">社政課</label>
+            <label> <input type="checkbox" name="" value="" title="民政課">民政課</label>
+            <label> <input type="checkbox" name="" value="" title="經建課">經建課</label>
+            <label> <input type="checkbox" name="" value="" title="綜合行政課">綜合行政課</label>
+            <label> <input type="checkbox" name="" value="" title="圖書館">圖書館</label>
+          </div>
+        </div>
+      </div>
+      <div class="formGrp" role="group" aria-labelledby="fake-legend">
+        <div for="" class="formTitle">單選</div>
+        <div class="formContent" id="fake-legend">
+          <div class="radioGrp formInline">
+            <label> <input type="radio" name="sampleRadio5" title="社政課" value="" checked="">社政課</label>
+            <label> <input type="radio" name="sampleRadio5" title="民政課" value="">民政課</label>
+            <label> <input type="radio" name="sampleRadio5" title="經建課" value="">經建課</label>
+            <label> <input type="radio" name="sampleRadio5" title="綜合行政課" value="">綜合行政課</label>
+            <label> <input type="radio" name="sampleRadio5" title="圖書館" value="">圖書館</label>
+          </div>
+        </div>
+      </div>
+      <div class="btnGrp formInline">
+        <button type="button" class="btn btnReset">清除</button>
+        <button type="button" class="btn btnSubmit">送出</button>
+      </div>
+    </div>
+  </div>
+</div>
+<p>臺灣風光，多元細緻，不同角落的風情，都充滿了在地的故事和動人的情懷。歡迎旅遊臺灣體驗生活，探訪這座美麗的島嶼，旅行者的秘境，細品臺灣人文風貌，跟臺灣的滿滿人情味相遇！友善、智慧、體驗的臺灣，熱情歡迎您！</p>
+            <!-- LP Start -->
+            <section class="lp">
+              <!-- category -->
+              <div class="category">
+                <ul>
+                  <li><a href="#">標籤1</a></li>
+                  <li><a href="#">標籤2</a></li>
+                  <li><a href="#">標籤3</a></li>
+                  <li><a href="#">標籤4</a></li>
+                  <li><a href="#">標籤5</a></li>
+                  <li><a href="#">標籤6</a></li>
+                  <li><a href="#">標籤7</a></li>
+                  <li><a href="#">標籤8</a></li>
+                  <li><a href="#">標籤9</a></li>
+                  <li><a href="#">標籤10</a></li>
+                </ul>
+              </div>
+              <!-- grid:flex -->
+              <section class="flexEqual_3">
+                <div class="container">
+                  <div class="flexSet">
+                    <div class="thumbnail">
+                      <a href="https://source.unsplash.com/random/1" data-fancybox="images" data-caption="第1張圖說" data-alt="第1張圖說">
+                        <div class="imgContainer">
+                          <picture>
+                            <source media="(min-width: 1200px)" data-srcset="https://source.unsplash.com/random/1" />
+                            <source media="(min-width: 992px)" data-srcset="https://source.unsplash.com/random/1" />
+                            <source media="(min-width: 576px)" data-srcset="https://source.unsplash.com/random/1" />
+                            <source media="(max-width: 575px)" data-srcset="https://source.unsplash.com/random/1" />
+                            <img data-src="https://source.unsplash.com/random/1" class="lazy" alt="圖說1" />
+                            <noscript><img src="https://source.unsplash.com/random/1" alt="圖說1" /></noscript>
+                          </picture>
+                        </div>
+                        <div class="caption">
+                          <time>2018-01-01</time>
+                          <div class="captionTitle">走在魚路古道的起點/參觀製作魚露的港邊小屋/觀察不經意形成...</div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="thumbnail">
+                      <a href="https://source.unsplash.com/random/2" data-fancybox="images" data-caption="第2張圖說" data-alt="第2張圖說">
+                        <div class="imgContainer">
+                          <picture>
+                            <source media="(min-width: 1200px)" data-srcset="https://source.unsplash.com/random/2" />
+                            <source media="(min-width: 992px)" data-srcset="https://source.unsplash.com/random/2" />
+                            <source media="(min-width: 576px)" data-srcset="https://source.unsplash.com/random/2" />
+                            <source media="(max-width: 575px)" data-srcset="https://source.unsplash.com/random/2" />
+                            <img data-src="https://source.unsplash.com/random/2" class="lazy" alt="圖說2" />
+                            <noscript><img src="https://source.unsplash.com/random/2" alt="圖說2" /></noscript>
+                          </picture>
+                        </div>
+                        <div class="caption">
+                          <time>2018-01-01</time>
+                          <div class="captionTitle">走在魚路古道的起點/參觀製作魚露的港邊小屋/觀察不經意形成...</div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="thumbnail">
+                      <a href="https://source.unsplash.com/random/3" data-fancybox="images" data-caption="第3張圖說" data-alt="第3張圖說">
+                        <div class="imgContainer">
+                          <picture>
+                            <source media="(min-width: 1200px)" data-srcset="https://source.unsplash.com/random/3" />
+                            <source media="(min-width: 992px)" data-srcset="https://source.unsplash.com/random/3" />
+                            <source media="(min-width: 576px)" data-srcset="https://source.unsplash.com/random/3" />
+                            <source media="(max-width: 575px)" data-srcset="https://source.unsplash.com/random/3" />
+                            <img data-src="https://source.unsplash.com/random/3" class="lazy" alt="圖說3" />
+                            <noscript><img src="https://source.unsplash.com/random/3" alt="圖說3" /></noscript>
+                          </picture>
+                        </div>
+                        <div class="caption">
+                          <time>2018-01-01</time>
+                          <div class="captionTitle">走在魚路古道的起點/參觀製作魚露的港邊小屋/觀察不經意形成...</div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="thumbnail">
+                      <a href="https://source.unsplash.com/random/4" data-fancybox="images" data-caption="第4張圖說" data-alt="第4張圖說">
+                        <div class="imgContainer">
+                          <picture>
+                            <source media="(min-width: 1200px)" data-srcset="https://source.unsplash.com/random/4" />
+                            <source media="(min-width: 992px)" data-srcset="https://source.unsplash.com/random/4" />
+                            <source media="(min-width: 576px)" data-srcset="https://source.unsplash.com/random/4" />
+                            <source media="(max-width: 575px)" data-srcset="https://source.unsplash.com/random/4" />
+                            <img data-src="https://source.unsplash.com/random/4" class="lazy" alt="圖說4" />
+                            <noscript><img src="https://source.unsplash.com/random/4" alt="圖說4" /></noscript>
+                          </picture>
+                        </div>
+                        <div class="caption">
+                          <time>2018-01-01</time>
+                          <div class="captionTitle">走在魚路古道的起點/參觀製作魚露的港邊小屋/觀察不經意形成...</div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="thumbnail">
+                      <a href="https://source.unsplash.com/random/5" data-fancybox="images" data-caption="第5張圖說" data-alt="第5張圖說">
+                        <div class="imgContainer">
+                          <picture>
+                            <source media="(min-width: 1200px)" data-srcset="https://source.unsplash.com/random/5" />
+                            <source media="(min-width: 992px)" data-srcset="https://source.unsplash.com/random/5" />
+                            <source media="(min-width: 576px)" data-srcset="https://source.unsplash.com/random/5" />
+                            <source media="(max-width: 575px)" data-srcset="https://source.unsplash.com/random/5" />
+                            <img data-src="https://source.unsplash.com/random/5" class="lazy" alt="圖說5" />
+                            <noscript><img src="https://source.unsplash.com/random/5" alt="圖說5" /></noscript>
+                          </picture>
+                        </div>
+                        <div class="caption">
+                          <time>2018-01-01</time>
+                          <div class="captionTitle">走在魚路古道的起點/參觀製作魚露的港邊小屋/觀察不經意形成...</div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="thumbnail">
+                      <a href="https://source.unsplash.com/random/6" data-fancybox="images" data-caption="第6張圖說" data-alt="第6張圖說">
+                        <div class="imgContainer">
+                          <picture>
+                            <source media="(min-width: 1200px)" data-srcset="https://source.unsplash.com/random/6" />
+                            <source media="(min-width: 992px)" data-srcset="https://source.unsplash.com/random/6" />
+                            <source media="(min-width: 576px)" data-srcset="https://source.unsplash.com/random/6" />
+                            <source media="(max-width: 575px)" data-srcset="https://source.unsplash.com/random/6" />
+                            <img data-src="https://source.unsplash.com/random/6" class="lazy" alt="圖說6" />
+                            <noscript><img src="https://source.unsplash.com/random/6" alt="圖說6" /></noscript>
+                          </picture>
+                        </div>
+                        <div class="caption">
+                          <time>2018-01-01</time>
+                          <div class="captionTitle">走在魚路古道的起點/參觀製作魚露的港邊小屋/觀察不經意形成...</div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="thumbnail">
+                      <a href="https://source.unsplash.com/random/7" data-fancybox="images" data-caption="第7張圖說" data-alt="第7張圖說">
+                        <div class="imgContainer">
+                          <picture>
+                            <source media="(min-width: 1200px)" data-srcset="https://source.unsplash.com/random/7" />
+                            <source media="(min-width: 992px)" data-srcset="https://source.unsplash.com/random/7" />
+                            <source media="(min-width: 576px)" data-srcset="https://source.unsplash.com/random/7" />
+                            <source media="(max-width: 575px)" data-srcset="https://source.unsplash.com/random/7" />
+                            <img data-src="https://source.unsplash.com/random/7" class="lazy" alt="圖說7" />
+                            <noscript><img src="https://source.unsplash.com/random/7" alt="圖說7" /></noscript>
+                          </picture>
+                        </div>
+                        <div class="caption">
+                          <time>2018-01-01</time>
+                          <div class="captionTitle">走在魚路古道的起點/參觀製作魚露的港邊小屋/觀察不經意形成...</div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="thumbnail">
+                      <a href="https://source.unsplash.com/random/8" data-fancybox="images" data-caption="第8張圖說" data-alt="第8張圖說">
+                        <div class="imgContainer">
+                          <picture>
+                            <source media="(min-width: 1200px)" data-srcset="https://source.unsplash.com/random/8" />
+                            <source media="(min-width: 992px)" data-srcset="https://source.unsplash.com/random/8" />
+                            <source media="(min-width: 576px)" data-srcset="https://source.unsplash.com/random/8" />
+                            <source media="(max-width: 575px)" data-srcset="https://source.unsplash.com/random/8" />
+                            <img data-src="https://source.unsplash.com/random/8" class="lazy" alt="圖說8" />
+                            <noscript><img src="https://source.unsplash.com/random/8" alt="圖說8" /></noscript>
+                          </picture>
+                        </div>
+                        <div class="caption">
+                          <time>2018-01-01</time>
+                          <div class="captionTitle">走在魚路古道的起點/參觀製作魚露的港邊小屋/觀察不經意形成...</div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="thumbnail">
+                      <a href="https://source.unsplash.com/random/9" data-fancybox="images" data-caption="第9張圖說" data-alt="第9張圖說">
+                        <div class="imgContainer">
+                          <picture>
+                            <source media="(min-width: 1200px)" data-srcset="https://source.unsplash.com/random/9" />
+                            <source media="(min-width: 992px)" data-srcset="https://source.unsplash.com/random/9" />
+                            <source media="(min-width: 576px)" data-srcset="https://source.unsplash.com/random/9" />
+                            <source media="(max-width: 575px)" data-srcset="https://source.unsplash.com/random/9" />
+                            <img data-src="https://source.unsplash.com/random/9" class="lazy" alt="圖說9" />
+                            <noscript><img src="https://source.unsplash.com/random/9" alt="圖說9" /></noscript>
+                          </picture>
+                        </div>
+                        <div class="caption">
+                          <time>2018-01-01</time>
+                          <div class="captionTitle">走在魚路古道的起點/參觀製作魚露的港邊小屋/觀察不經意形成...</div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </section>
+            <!-- LP End -->
+            <!-- Pagination -->
+            <div class="pagination">
+              <form action="">
+                <div class="formInline">
+                  <div class="total">
+                    共<span>308</span>筆資料，第<span>1/18</span>頁，<label for="pet-select">每頁顯示</label>
+                    <select name="" id="pet-select" aria-label="每頁顯示">
+                      <option value="">10</option>
+                      <option value="">20</option>
+                      <option value="">30</option>
+                      <option value="">40</option>
+                    </select>
+                    筆 <input type="button" class="btn" value="確定" title="確定" />
+                  </div>
+                </div>
+              </form>
+              <ul class="page">
+                <li class="first">
+                  <a href="#" title="第一頁">第一頁</a>
+                </li>
+                <li class="prev">
+                  <a href="#" title="回上一頁">回上一頁</a>
+                </li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+                <li><a href="#">7</a></li>
+                <li><a href="#">8</a></li>
+                <li><a href="#">9</a></li>
+                <li><a href="#">10</a></li>
+                <li class="next"><a href="#" title="下一頁">下一頁</a></li>
+                <li class="last">
+                  <a href="#" title="最後一頁">最後一頁</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!-- fatFooter Start -->
+      <section class="fatFooter">
+        <div class="container">
+          <button type="button" name="展開選單/OPEN" aria-label="導覽選單展開/收合" class="btn btnFatFooter">收合</button>
+          <nav>
+            <ul>
+              <li>
+                <a href="#">組織職掌</a>
+              </li>
+              <li>
+                <a href="#">SOP</a>
+              </li>
+              <li>
+                <a href="#">綜合規畫科</a>
+                <ul>
+                  <li><a href="#">施政規劃</a></li>
+                  <li><a href="#">科技發展計畫</a></li>
+                  <li><a href="#">研究發展</a></li>
+                  <li><a href="#">教育訓練</a></li>
+                  <li><a href="#">其他</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">管制考核科</a>
+              </li>
+              <li>
+                <a href="#">法制事務科</a>
+              </li>
+              <li>
+                <a href="#">業務宣導科</a>
+                <ul>
+                  <li><a href="#">宣導計畫</a></li>
+                  <li><a href="#">影音文宣</a></li>
+                  <li><a href="#">國際合作</a></li>
+                  <li><a href="#">推廣宣導</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">聯絡窗口</a>
+              </li>
+              <li>
+                <a href="#">圖書室</a>
+              </li>
+              <li>
+                <a href="#">重要業務</a>
+              </li>
+              <li>
+                <a href="#">讀書趣專區</a>
+                <ul>
+                  <li><a href="#">長官簡報</a></li>
+                  <li><a href="#">長官文稿</a></li>
+                  <li><a href="#">立法院資料</a></li>
+                  <li><a href="#">健保會資料</a></li>
+                  <li><a href="#">法案資料</a></li>
+                  <li><a href="#">施政計畫</a></li>
+                  <li><a href="#">專案研究計畫</a></li>
+                  <li><a href="#">影音文宣</a></li>
+                  <li><a href="#">民意調查</a></li>
+                  <li><a href="#">教育訓練</a></li>
+                  <li><a href="#">統計資料</a></li>
+                  <li><a href="#">國際合作</a></li>
+                  <li><a href="#">歷史記事</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">員工學習區</a>
+              </li>
+              <li>
+                <a href="#">虛擬健保卡</a>
+              </li>
+              <li>
+                <a href="#">署會記錄</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+      <!-- fatFooter End -->
+      <!-- footer Start-->
+      <footer>
+        <div class="container">
+          <!-- <a class="accessKey" href="#aZ" id="aZ" accesskey="Z" title="頁尾區">:::</a> -->
+          <div class="footerInfo">
+
+            <span class="update">更新日期<em>2018/01/01</em></span>
+            <span class="counter">累計瀏覽人次<em>46476653</em></span>
+          </div>
+        </div>
+      </footer>
+      <!-- footer End -->
+    </div>
+    <a href="javascript:;" class="scrollToTop" role="button">回頁首</a>
+
+    <!-- lazyload -->
+    <script src="vendor/lazyload/lazyload.js"></script>
+    <!-- picturefill -->
+    <script src="vendor/picturefill/picturefill.min.js" async></script>
+    <!-- fancybox -->
+    <script src="vendor/fancybox/fancybox.js"></script>
+    <!-- swiper -->
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+    <!-- main js-->
+    <script src="js/main.js"></script>
+    <!-- js -->
+    <script src="js/customize.js"></script>
+  </body>
+  </html>

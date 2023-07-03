@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="zh-Hant" class="no-js">
+  <head>
+    <meta name="robots" content="noindex" />
+    <!-- 使用 noindex 禁止 Google 搜尋建立索引，套版時請工程師刪掉這行 -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HyUI kit</title>
+
+    <!-- 燈箱fancybox -->
+    <link rel="stylesheet" type="text/css" href="vendor/fancybox/jquery.fancybox.min.css" />
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- favicon -->
+    <link href="images/favicon.png" rel="icon" type="image/x-icon" />
+  </head>
+
+  <body>
+    <!-- 直接跳主內容區 -->
+    <a class="goCenter" href="#center" tabindex="1">按Enter到主內容區</a>
+    <!-- wrapper Start -->
+    <div class="wrapper">
+      <!-- header Start -->
+      <header class="header">
+        <div class="container">
+          <!-- <a class="accessKey" href="#aU" id="aU" accesskey="U" title="網站標題" tabindex="2">:::</a> -->
+          <!-- navigation Start -->
+          <nav class="navigation" role="navigation" aria-label="Site">
+            <!-- 新增div navList -->
+            <div class="navList">
+              <ul>
+                <li><a href="#">首頁</a></li>
+                <li><a href="#">網站導覽</a></li>
+              </ul>
+            </div>
+            <!-- fontSize -->
+            <div class="fontSize">
+              <!-- <span class="font-size-label">字型大小：</span> -->
+              <ul aria-labelledby="font-size-label">
+                <li><button class="small" title="小">小</button></li>
+                <li><button class="medium" title="中">中</button></li>
+                <li><button class="large" title="大">大</button></li>
+              </ul>
+            </div>
+          </nav>
+          <!-- navigation End -->
+          <h1>
+            <a href="index.html"><img src="images/logo.png" alt="網站標題" /></a>
+            <span><a href="">醫審及藥材組</a></span>
+          </h1>
+          <!-- noscript -->
+          <!-- <noscript>
+            您的瀏覽器不支援JavaScript語法，JavaScript語法並不影響內容的陳述。您可使用按鍵盤上的Ctrl鍵+ (+)鍵放大/(-)鍵縮小來改變字型大小；回到上一頁可使用瀏覽器提供的 Alt+左方向鍵(←) 快速鍵功能；列印可使用瀏覽器提供的(Ctrl+P)功能。您的瀏覽器，不支援script語法，若您的瀏覽器無法支援請點選此超連結
+            <a href="#">網站導覽</a>
+          </noscript> -->
+          <!-- menu Start -->
+          <nav class="menu mainMenu" role="navigation" aria-label="About page">
+            <ul>
+              <li>
+                <a href="#">組織職掌</a>
+              </li>
+              <li><a href="#">SOP</a></li>
+              <li>
+                <a href="#">綜合規畫科</a>
+                <ul>
+                  <li><a href="#">第二層選單</a></li>
+                  <li><a href="#">第二層選單</a></li>
+                  <li>
+                    <a href="http://www.google.com">第二層有連結</a>
+                    <ul>
+                      <li>
+                        <a href="http://www.google.com">第三層選單有下層</a>
+                        <ul>
+                          <li><a href="#">第四層選單</a></li>
+                          <li><a href="#">第四層選單</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="http://www.google.com">第三層選單有連結</a>
+                      </li>
+                      <li><a href="#">第三層選單</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">第二層選單</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">管制考核科</a>
+              </li>
+              <li>
+                <a href="#">法制事務科</a>
+              </li>
+              <li>
+                <a href="#">業務宣導科</a>
+              </li>
+              <li>
+                <a href="#">聯絡窗口</a>
+              </li>
+              <li>
+                <a href="#">圖書室</a>
+              </li>
+              <li>
+                <a href="#">重要業務</a>
+                <ul>
+                  <li><a href="#">第二層選單</a></li>
+                  <li><a href="#">第二層選單</a></li>
+                  <li>
+                    <a href="http://www.google.com">第二層有連結</a>
+                    <ul>
+                      <li>
+                        <a href="http://www.google.com">第三層選單有下層</a>
+                        <ul>
+                          <li><a href="#">第四層選單</a></li>
+                          <li><a href="#">第四層選單</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="http://www.google.com">第三層選單有連結</a>
+                      </li>
+                      <li><a href="#">第三層選單</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">第二層選單</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">讀書趣專區</a>
+              </li>
+              <li>
+                <a href="#">員工學習區</a>
+              </li>
+              <li>
+                <a href="#">虛擬健保卡</a>
+              </li>
+              <li>
+                <a href="#">署會記錄</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- menu End -->
+        </div>
+      </header>
+      <!-- header End -->
+      <!-- main Start -->
+      <main id="center" class="main innerPage">
+        <!-- 內頁新增一個classname-->
+        <!-- <a class="accessKey" href="#aC" id="aC" accesskey="C" title="主要內容區">:::</a> -->
+        <div class="container">
+          <!-- 主要內容區 -->
+          <div class="centerBlock">
+            <!-- breadcrumb路徑 -->
+            <nav aria-label="Breadcrumb" class="breadcrumb">
+              <ul>
+                <li><a href="#">首頁</a></li>
+                <li><a href="#">節點</a></li>
+                <li aria-current="page">節點</li>
+              </ul>
+            </nav>
+            <!-- h2節點 -->
+            <h2 class="title">節點標題</h2>
+            <!-- functionPanel -->
+            <div class="functionPanel">
+              <!-- function功能區塊 -->
+              <div class="function">
+                <ul>
+                  <li class="back"><a href="javascript:history.back()">回上一頁</a></li>
+                  <li class="print"><a href="#">友善列印</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="txtArea">
+              <p>為建立政府資訊公開制度，便利人民共享及公平利用政府資訊，保障人民知的權利，增進人民對公共事務之瞭解、信賴及監督，並促進民主參與，特制定<em>政府資訊公開法</em>。</p>
+              <p>下列政府資訊，除依第十八條規定限制公開或不予提供者外，應主動公開：</p>
+              <p>一、條約、對外關係文書、法律、緊急命令、中央法規標準法所定之命令、法規命令及地方自治法規。<br>
+                二、政府機關為協助下級機關或屬官統一解釋法令、認定事實、及行使裁量權，而訂頒之解釋性規定及裁量基準。<br>
+                三、政府機關之組織、職掌、地址、電話、傳真、網址及電子郵件信箱帳號。<br>
+                四、行政指導有關文書。<br>
+                五、施政計畫、業務統計及研究報告。<br>
+                六、預算及決算書。<br>
+                七、請願之處理結果及訴願之決定。<br>
+                八、書面之公共工程及採購契約。<br>
+                九、支付或接受之補助。<br>
+                十、合議制機關之會議紀錄。
+              </p>
+            </div>
+            <!-- NP Start -->
+            <section class="submenu">
+              <ul>
+                <li>
+                  <a href="#"><span class="num">1</span>節點1節點1節點1節點1節點1節點1節點1節點1節點1節點1節點1節點1節點1節點1節點1節點1節點1</a>
+                </li>
+                <li>
+                  <a href="#"><span class="num">2</span>節點2</a>
+                </li>
+                <li>
+                  <a href="#"><span class="num">3</span>節點3</a>
+                </li>
+                <li>
+                  <a href="#"><span class="num">4</span>節點4</a>
+                </li>
+                <li>
+                  <a href="#"><span class="num">5</span>節點5節點5節點5節點5節點5節點5節點5節點5節點5節點5節點5節點5節點5節點5節點5節點5</a>
+                </li>
+                <li>
+                  <a href="#"><span class="num">6</span>節點6</a>
+                </li>
+                <li>
+                  <a href="#"><span class="num">7</span>節點7</a>
+                </li>
+                <li>
+                  <a href="#"><span class="num">8</span>節點8</a>
+                </li>
+                <li>
+                  <a href="#"><span class="num">9</span>節點9</a>
+                </li>
+                <li>
+                  <a href="#"><span class="num">10</span>節點10</a>
+                </li>
+              </ul>
+            </section>
+            <!-- NP End -->
+          </div>
+        </div>
+      </main>
+      <!-- fatFooter Start -->
+      <section class="fatFooter">
+        <div class="container">
+          <button type="button" name="展開選單/OPEN" aria-label="導覽選單展開/收合" class="btn btnFatFooter">收合</button>
+          <nav>
+            <ul>
+              <li>
+                <a href="#">組織職掌</a>
+              </li>
+              <li>
+                <a href="#">SOP</a>
+              </li>
+              <li>
+                <a href="#">綜合規畫科</a>
+                <ul>
+                  <li><a href="#">施政規劃</a></li>
+                  <li><a href="#">科技發展計畫</a></li>
+                  <li><a href="#">研究發展</a></li>
+                  <li><a href="#">教育訓練</a></li>
+                  <li><a href="#">其他</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">管制考核科</a>
+              </li>
+              <li>
+                <a href="#">法制事務科</a>
+              </li>
+              <li>
+                <a href="#">業務宣導科</a>
+                <ul>
+                  <li><a href="#">宣導計畫</a></li>
+                  <li><a href="#">影音文宣</a></li>
+                  <li><a href="#">國際合作</a></li>
+                  <li><a href="#">推廣宣導</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">聯絡窗口</a>
+              </li>
+              <li>
+                <a href="#">圖書室</a>
+              </li>
+              <li>
+                <a href="#">重要業務</a>
+              </li>
+              <li>
+                <a href="#">讀書趣專區</a>
+                <ul>
+                  <li><a href="#">長官簡報</a></li>
+                  <li><a href="#">長官文稿</a></li>
+                  <li><a href="#">立法院資料</a></li>
+                  <li><a href="#">健保會資料</a></li>
+                  <li><a href="#">法案資料</a></li>
+                  <li><a href="#">施政計畫</a></li>
+                  <li><a href="#">專案研究計畫</a></li>
+                  <li><a href="#">影音文宣</a></li>
+                  <li><a href="#">民意調查</a></li>
+                  <li><a href="#">教育訓練</a></li>
+                  <li><a href="#">統計資料</a></li>
+                  <li><a href="#">國際合作</a></li>
+                  <li><a href="#">歷史記事</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">員工學習區</a>
+              </li>
+              <li>
+                <a href="#">虛擬健保卡</a>
+              </li>
+              <li>
+                <a href="#">署會記錄</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+      <!-- fatFooter End -->
+      <!-- footer Start-->
+      <footer>
+        <div class="container">
+          <!-- <a class="accessKey" href="#aZ" id="aZ" accesskey="Z" title="頁尾區">:::</a> -->
+          <div class="footerInfo">
+
+            <span class="update">更新日期<em>2018/01/01</em></span>
+            <span class="counter">累計瀏覽人次<em>46476653</em></span>
+          </div>
+        </div>
+      </footer>
+      <!-- footer End -->
+    </div>
+    <a href="javascript:;" class="scrollToTop" role="button">回頁首</a>
+
+    <!-- lazyload -->
+    <script src="vendor/lazyload/lazyload.js"></script>
+    <!-- picturefill -->
+    <script src="vendor/picturefill/picturefill.min.js" async></script>
+    <!-- fancybox -->
+    <script src="vendor/fancybox/fancybox.js"></script>
+    <!-- swiper -->
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+    <!-- main js-->
+    <script src="js/main.js"></script>
+    <!-- js -->
+    <script src="js/customize.js"></script>
+  </body>
+</html>

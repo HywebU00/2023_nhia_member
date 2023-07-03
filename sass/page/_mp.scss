@@ -1,0 +1,227 @@
+/////////////////////////////////////////////////////////以下為demo範例///
+.blockTitle{
+  font-size: 2rem;
+  text-align: center;
+  margin: 0 0 40px 0;
+  @include screen('mobile') {
+    font-size: 1.5rem;
+  }
+}
+.blockMore{
+  text-align: center;
+  a{
+    display: inline-block;
+    padding: 18px 60px 18px 20px;
+    border-radius: 30px;
+    position: relative;
+    transition: all .5s;
+    color: $colorWord;
+    &:before{
+      content: "";
+      width: 24px;
+      height: 24px;
+      display: block;
+      position: absolute;
+      background: url(../images/arrow-right.svg) no-repeat;
+      right: 30px;
+      transition: all .5s;
+    }
+    &:hover,&:focus{
+      background: $colorPrimary;
+      color: #fff;
+      &:before{
+        right: 20px;
+        background: url(../images/arrow-right_.svg) no-repeat;
+      }
+    }
+  }
+}
+// 首頁區塊設定
+.mpSlider {
+  margin: 0 auto;
+  .container{
+    padding: 0 30px;
+  }
+  .item {
+    background: transparent;
+    img {
+      min-height: 350px;
+      object-fit: cover;
+      aspect-ratio: 1164/510;
+      border-radius: 20px;
+      @include screen('mobile') {
+        min-height: auto;
+      }
+    }
+    .titleBox {
+      position: absolute;
+      max-width: rem(1200);
+      padding: 20px;
+      width: 100%;
+      margin: auto;
+      inset: 0 0 70px;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      line-height: 1;
+      @include screen('mobile') {
+        padding: 20px 60px;
+      }
+      h1,
+      h2 {
+        padding: 0;
+        margin: 0 0 10px;
+        font-size: rem(24);
+        @include screen('mobile') {
+          font-size: rem(18);
+        }
+      }
+      h1 {
+        font-size: rem(40);
+        @include screen('tablet') {
+          font-size: rem(30);
+        }
+        @include screen('mobile') {
+          font-size: rem(22);
+        }
+      }
+      p {
+        margin: 0;
+        font-size: rem(16);
+      }
+    }
+    .txtBox {
+      position: absolute;
+      background: rgb(8 31 56/80%);
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      .txt {
+        font-size: rem(18);
+        padding: 20px;
+        width: 100%;
+        margin: 0 auto;
+        color: #fff;
+        max-width: 75rem;
+        @include screen('tablet') {
+          font-size: rem(16);
+        }
+      }
+    }
+  }
+  .swiperArrow {
+    &.prevSlider {
+      left: -40px;
+      @media screen and (max-width: 1200px){
+        left: 40px;
+      }
+      @include screen('mobile') {
+        left: 0;
+      }
+    }
+    &.nextSlider {
+      right: -40px;
+      @media screen and (max-width: 1200px){
+        right: 40px;
+      }
+      @include screen('mobile') {
+        right: 0;
+      }
+    }
+    &.swiperArrow-disabled {
+      opacity: 0.3;
+    }
+  }
+}
+
+.newsBlock{
+  padding: 40px 0;
+  .container{
+    padding: 0 30px;
+  }
+  ul{
+    @include liReset;
+    // font-size: 1.125em;
+    width: 70%;
+    margin: 0 auto;
+    @include screen('tablet') {
+      width: 80%;
+    }
+    @include screen('mobile') {
+      width: 100%;
+      font-size: 1rem;
+    }
+    li{
+      display: flex;
+      align-items: center;
+      margin-bottom: 26px;
+      @include screen('mobile') {
+        margin-bottom: 16px;
+      }
+      time.date{
+        color: #fff;
+        background: $colorSecondary;
+        white-space: nowrap;
+        padding: 8px 26px;
+        border-radius: 24px;
+        margin-right: 28px;
+        @include screen('mobile') {
+          padding: 8px;
+          margin-right: 8px;
+        }
+      }
+      a{
+        display: block;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: $colorWord;
+        border-bottom: 1px solid  rgba(0, 83, 130, 0.30);
+        padding: 8px 0;
+        &:hover,&:focus{
+          color: $colorPrimary;
+        }
+      }
+    }
+  }
+}
+.linkBlock{
+  .container{
+    padding: 40px 30px;
+    box-sizing: border-box;
+    background:#E0F5F9 url(../images/linkBg.jpg) no-repeat;
+    border-radius: 20px;
+    @media screen and (max-width: 1200px){
+      border-radius: 0;
+    }
+  }
+  ul{
+    @include liReset;
+    // font-size: 1.125em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto 20px;
+
+    @include screen('mobile') {
+      // font-size: 1rem;
+    }
+    li{
+      margin: 5px;
+      a{
+        padding: 18px 24px;
+        border-radius: 30px;
+        border: 1px solid $colorPrimary;
+        background: #fff;
+        display: block;
+        transition: all .5s;
+    color: $colorWord;
+        &:hover,&:focus{
+          background: $colorPrimary;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
