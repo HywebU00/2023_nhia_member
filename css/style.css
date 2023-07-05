@@ -4354,7 +4354,7 @@ img {
   .header h1 img {
     display: block;
     max-width: 415px;
-    max-height: 90px;
+    max-height: 70px;
   }
   @media screen and (max-width: 767px) {
     .header h1 img {
